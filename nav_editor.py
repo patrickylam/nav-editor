@@ -15,12 +15,13 @@ from http import HTTPStatus
 app = Flask(__name__)
 
 bucket = 'lll-nonprod-shopapp-us-west-2'
-key = 'sandbox/products/categories/{}.json'
+nav_key = 'sandbox/products/categories/{}.json'
+locale_key = 'sandbox/products/categories/locales.json'
+
 
 @app.route('/navigation', methods=['GET'])
-def get_json():
+def get_navigation():
     locale = request.args.get('locale')
-    print('Got locale: {}'.format(locale))
 
     accepted_locales = ['en_CA', 'fr_CA', 'en_US', 'en_AU', 'en_GB']
 
@@ -30,7 +31,7 @@ def get_json():
     else:
         s3 = boto3.client('s3')
 
-        s3.download_file(bucket, key.format(locale), 'temp.json')
+        s3.download_file(bucket, nav_key.format(locale), 'temp.json')
 
         with open('temp.json', 'r+b') as f:
             data = json.load(f)
@@ -40,6 +41,24 @@ def get_json():
     return jsonify(data)
 
 
+@app.route('/locales', methods=['GET'])
+def get_locales():
+    s3 = boto3.client('s3')
+
+    s3.download_file(bucket, locale_key, 'temp.json')
+    with open('temp.json', 'r+b') as f:
+        data = json.load(f)
+
+    return jsonify(data)
+
+
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template('page_not_found.html'), 404
+
+
+@app.route('/navigation', methods=['POST'])
+def update_navigation():
+    content_type = request.args.get('application/json')
+    content = request.args.get('changes')
+    pass
