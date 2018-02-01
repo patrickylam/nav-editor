@@ -1,6 +1,0 @@
-# tight-cli
-PyYAML
-pytest
-boto3
-botocore
-invoke

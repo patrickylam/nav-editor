@@ -1,0 +1,868 @@
+{
+	"navigationItem": [
+		{
+			"displayName": "home"
+		},
+		{
+			"id": "auwomen",
+			"displayName": "Women",
+			"unifiedId": "women",
+			"tileStyle": "product_category_list",
+			"backgroundLandscapeImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_gender",
+			"displayOrder": 2,
+			"navigationItem": [
+				{
+					"id": "auwomenfeatures",
+					"displayName": "Features",
+					"unifiedId": "auwomenfeatures",
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_features",
+					"navigationItem": [
+						{
+							"id": "auwhatsnew",
+							"displayName": "What's new",
+							"unifiedId": "whats-new-women",
+							"tileStyle": "product_category_card",
+							"description": "Technical athletic gear for yoga, running, training—and pretty much any other way you like to sweat.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_features_whatsnew",
+							"backgroundImageUrl": "http://images.lululemon.com/is/image/lululemon/women_wn_hero_au_180130",
+							"route": "/product_list?product_category=auwhatsnew",
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral",
+								"bySizeWomenBras",
+								"bySizeWomenBottoms"
+							],
+							"displayOrder": 1
+						},
+						{
+							"id": "auwwmtm",
+							"displayName": "We made too much",
+							"subtitle": "We made too much",
+							"callToAction": "View all",
+							"unifiedId": "women-we-made-too-much",
+							"tileStyle": "campaign",
+							"description": "We made a little extra – don’t be shy, help yourself.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_features_wmtm",
+							"backgroundImageUrl": "http://images.lululemon.com/is/image/lululemon/women_wmtm_hero_au_170816",
+							"route": "/product_list?product_category=auwwmtm",
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral",
+								"bySizeWomenBras",
+								"bySizeWomenBottoms"
+							],
+							"displayOrder": 3
+						}
+					]
+				},
+				{
+					"id": "auwtops",
+					"displayName": "Tops",
+					"unifiedId": "auwtops",
+					"subTitle": "women's tops",
+					"displayInList": true,
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_tops",
+					"navigationItem": [
+						{
+							"id": "cat3580009",
+							"displayName": "Jackets",
+							"unifiedId": "au-women-jackets",
+							"description": "Brave the elements. This gear has you covered on the trails, in the mountains, and on the street.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_tops_jackets",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral"
+							]
+						},
+						{
+							"id": "cat3580010",
+							"displayName": "Vests",
+							"unifiedId": "au-women-vests",
+							"description": "Not too hot, not too cold—our running vests deliver just the right amount of lightweight warmth.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_tops_vests",
+							"iconUrl": null,
+							"productsExpected": false,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral"
+							]
+						},
+						{
+							"id": "auwsportsbras",
+							"displayName": "Sports bras",
+							"unifiedId": "women-sports-bras",
+							"description": "Whether it's yoga bras or running bras, everyone needs a little support—we've got you covered.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_tops_bras",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral",
+								"bySizeWomenBras",
+								"bySupportWomenBras"
+							]
+						},
+						{
+							"id": "auwtanks",
+							"displayName": "Tanks",
+							"unifiedId": "women-tanks",
+							"description": "Whether you're getting sweaty or getting social, these training, run, and yoga tanks are good-to-go.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_tops_tanks",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySupportWomenTops",
+								"bySizeWomenGeneral"
+							]
+						},
+						{
+							"id": "auwshortsleeve",
+							"displayName": "Short sleeves",
+							"unifiedId": "women-short-sleeves",
+							"description": "Our sweat-wicking short sleeves are always up for a good sweat—you’ve got that in common.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_tops_shortsleeve",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral"
+							]
+						},
+						{
+							"id": "cat3560012",
+							"displayName": "Long sleeves",
+							"unifiedId": "au-women-long-sleeves",
+							"description": "Sometimes you want a little extra warmth—technical, sweat-wicking long sleeves have you covered.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_tops_longsleeve",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral"
+							]
+						},
+						{
+							"id": "ausweatersandwraps",
+							"displayName": "Sweaters + Wraps",
+							"unifiedId": "au-women-sweaters-wraps",
+							"description": "From cool morning commutes to post-practice coffee—it’s always sweater weather.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_tops_sweaters",
+							"iconUrl": null,
+							"productsExpected": false,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral"
+							]
+						},
+						{
+							"id": "auwjacketsandhoodies",
+							"displayName": "Hoodies",
+							"unifiedId": "au-women-hoodie",
+							"description": "Zip ‘em up or pull ‘em on—our women's hoodies are designed to get you where you’re going.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_tops_hoodies",
+							"iconUrl": null,
+							"productsExpected": false,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral"
+							]
+						},
+						{
+							"id": "walltops",
+							"displayName": "View All",
+							"unifiedId": "women-maintops",
+							"description": "Technical yoga, running, and training tops designed to handle serious sweat.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_best_selling_tops",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral"
+							]
+						}
+					]
+				},
+				{
+					"id": "auwbottoms",
+					"displayName": "Bottoms",
+					"unifiedId": "auwbottoms",
+					"subTitle": "Women's bottoms",
+					"displayInList": true,
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_bottoms",
+					"navigationItem": [
+						{
+							"id": "auwpants",
+							"displayName": "Pants",
+							"unifiedId": "women-pants",
+							"description": "Get in our (technical) pants. Seriously, whether you're looking for run pants, yoga pants, or to + from pants, there's something for you.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_bottoms_pants",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"byFeel",
+								"bySizeWomenGeneral",
+								"bySizeWomenBottoms"
+							]
+						},
+						{
+							"id": "auwcrops",
+							"displayName": "Crops",
+							"unifiedId": "women-crops",
+							"description": "Running, training and yoga crops are a must. Think of them as our pants' shorter cousin.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_bottoms_crops",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"byFeel",
+								"bySizeWomenGeneral",
+								"bySizeWomenBottoms"
+							]
+						},
+						{
+							"id": "auw78pants",
+							"displayName": "7/8 pants",
+							"unifiedId": "women-7-8-pants",
+							"description": "These run, training, and yoga pants are not too short, not too long—their 7/8-length is just right.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_bottoms_78pants",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral",
+								"bySizeWomenBottoms"
+							]
+						},
+						{
+							"id": "auwyogaPants",
+							"displayName": "Yoga Pants",
+							"unifiedId": "au-women-yogapants",
+							"description": "From Savasana to Sirsasana, our breathable yoga pants and bottoms have you covered.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_bottoms_yoga",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral",
+								"bySizeWomenBottoms"
+							]
+						},
+						{
+							"id": "cat3810001",
+							"displayName": "Relaxed pants",
+							"unifiedId": "Relaxed-Pants",
+							"description": "Get there in comfort in breathable fabrics and relaxed styles.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_bottoms_relaxed_pants",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral",
+								"bySizeWomenBottoms"
+							]
+						},
+						{
+							"id": "auwshorts",
+							"displayName": "Shorts",
+							"unifiedId": "women-shorts",
+							"description": "Get a leg up—our yoga, to and from, and running shorts are designed to help you reach new heights.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_bottoms_shorts",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"byFitWomenShorts",
+								"bySizeWomenGeneral",
+								"bySizeWomenBottoms"
+							]
+						},
+						{
+							"id": "auwskirtsdresses",
+							"displayName": "Skirts",
+							"unifiedId": "women-skirts",
+							"description": "Our running skirts are made to move from the street to the track. Our other skirts get you from sweat to social.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_bottoms_skirts",
+							"iconUrl": null,
+							"productsExpected": false,
+							"filterIds": [
+								"byActivityWomen",
+								"byFitWomenSkirts",
+								"bySizeWomenGeneral",
+								"bySizeWomenBottoms"
+							]
+						},
+						{
+							"id": "wallbottoms",
+							"displayName": "View All",
+							"unifiedId": "women-bottoms",
+							"description": "Run, stretch, or jump—we’ve got your bottom covered.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_best_selling_bottoms",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral",
+								"bySizeWomenBottoms"
+							]
+						}
+					]
+				},
+				{
+					"id": "auwaccessories",
+					"displayName": "Accessories",
+					"unifiedId": "auwaccessories",
+					"subTitle": "women's accessories",
+					"displayInList": true,
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_accessories",
+					"navigationItem": [
+						{
+							"id": "auwbags",
+							"displayName": "Bags",
+							"unifiedId": "women-bags",
+							"description": "Sweaty and overnight adventures are in the bag with these functional carriers designed to handle everything from yoga mats to running hats.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_accessories_bags",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenAccessories"
+							]
+						},
+						{
+							"id": "auwheadwear",
+							"displayName": "Headbands + Hats",
+							"unifiedId": "women-headbands-and-hats",
+							"description": "Getting sweaty is easier when your hair behaves. Yoga and running headbands and hats help.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_accessories_headbands",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenAccessories"
+							]
+						},
+						{
+							"id": "auwmats",
+							"displayName": "Mats + Props",
+							"unifiedId": "women-yoga-mats-and-props",
+							"description": "We get by with a little help from our friends—our mats, blocks, straps, and towels can make all the difference.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_accessories_mats",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenAccessories"
+							]
+						},
+						{
+							"id": "auwsocksandunderwear",
+							"displayName": "Socks",
+							"unifiedId": "women-socks",
+							"description": "Studio and running socks for all-day comfort and performance. You're welcome.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_accessories_socks",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenAccessories"
+							]
+						},
+						{
+							"id": "cat3560006",
+							"displayName": "Underwear",
+							"unifiedId": "au-women-underwear",
+							"description": "Technical fabrics and a seamless construction mean you can get bendy in yoga, or sprint across the finish line without readjustment.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_bottoms_underwear",
+							"iconUrl": null,
+							"productsExpected": false,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenGeneral",
+								"bySizeWomenBottoms"
+							]
+						},
+						{
+							"id": "women-water-bottles",
+							"displayName": "Water bottles",
+							"unifiedId": "women-water-bottles",
+							"description": "Running, stretching, or squatting—you already know hydration is important. Bottoms up.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_accessories_bottles",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenAccessories"
+							]
+						},
+						{
+							"id": "cat3590001",
+							"displayName": "Scarves + Gloves",
+							"unifiedId": "au-women-scarves-gloves",
+							"description": "Wrap it up. These scarves are designed to help you beat the chill.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_accessories_scarves",
+							"iconUrl": null,
+							"productsExpected": false,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenAccessories"
+							]
+						},
+						{
+							"id": "wallaccessories",
+							"displayName": "View All",
+							"unifiedId": "w-accessories",
+							"description": "It’s all in the details. These accessories make your run, practice—and life—easy.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_best_selling_accessories",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityWomen",
+								"bySizeWomenAccessories"
+							]
+						}
+					]
+				},
+				{
+					"id": "auwactivity",
+					"displayName": "Activity",
+					"unifiedId": "auwactivity",
+					"subTitle": "activities",
+					"displayInList": true,
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_activity",
+					"navigationItem": [
+						{
+							"id": "au-w-run",
+							"displayName": "Run",
+							"unifiedId": "au-w-run",
+							"description": "Women's running gear built for performance. Go ahead, chase that high.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_activity_run",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"bySizeWomenGeneral",
+								"bySizeWomenBras",
+								"bySizeWomenBottoms",
+								"bySizeWomenAccessories"
+							]
+						},
+						{
+							"id": "au-w-tofrom",
+							"displayName": "To + From",
+							"unifiedId": "au-w-tofrom",
+							"description": "We get it, you’re going places and we’ve got the gear to get you there.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_activity_tofrom",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"bySizeWomenGeneral",
+								"bySizeWomenBras",
+								"bySizeWomenBottoms",
+								"bySizeWomenAccessories"
+							]
+						},
+						{
+							"id": "au-w-training",
+							"displayName": "Training",
+							"unifiedId": "au-w-training",
+							"description": "Our women's training gear is made with technical, sweat-wicking fabrics so you can push through those last reps.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_activity_training",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"bySizeWomenGeneral",
+								"bySizeWomenBras",
+								"bySizeWomenBottoms",
+								"bySizeWomenAccessories"
+							]
+						},
+						{
+							"id": "au-w-yoga",
+							"displayName": "Yoga",
+							"unifiedId": "au-w-yoga",
+							"description": "Stretch, bend, and twist in yoga gear that keeps you covered and comfortable.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/w_cat_activity_yoga",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"bySizeWomenGeneral",
+								"bySizeWomenBras",
+								"bySizeWomenBottoms",
+								"bySizeWomenAccessories"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "aumen",
+			"displayName": "Men",
+			"unifiedId": "men",
+			"tileStyle": "product_category_list",
+			"backgroundLandscapeImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_gender",
+			"displayOrder": 2,
+			"navigationItem": [
+				{
+					"id": "aumenfeatures",
+					"displayName": "Features",
+					"unifiedId": "aumenfeatures",
+					"subTitle": null,
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_features",
+					"navigationItem": [
+						{
+							"id": "aumwhatsnew",
+							"displayName": "What's new",
+							"unifiedId": "whats-new-men",
+							"tileStyle": "product_category_card",
+							"description": "Technical athletic gear for yoga, run, and the gym—and pretty much any other way you like to sweat.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_features_whatsnew",
+							"backgroundImageUrl": "http://images.lululemon.com/is/image/lululemon/men_wn_hero_au_171218",
+							"route": "/product_list?product_category=aumwhatsnew",
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenGeneral",
+								"bySizeMenBottoms",
+								"bySizeMenAccessories"
+							],
+							"displayOrder": 1
+						},
+						{
+							"id": "aumwmtm",
+							"displayName": "We made too much",
+							"subtitle": "We made too much",
+							"callToAction": "View all",
+							"unifiedId": "men-we-made-too-much",
+							"tileStyle": "campaign",
+							"description": "We made a little extra – don’t be shy, help yourself.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_features_wmtm",
+							"backgroundImageUrl": "http://images.lululemon.com/is/image/lululemon/men_wmtm_hero_au_170816",
+							"route": "/product_list?product_category=aumwmtm",
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenGeneral",
+								"bySizeMenBottoms",
+								"bySizeMenAccessories"
+							],
+							"displayOrder": 3
+						}
+					]
+				},
+				{
+					"id": "aumtops",
+					"displayName": "Tops",
+					"unifiedId": "aumtops",
+					"subTitle": "men's tops",
+					"displayInList": true,
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_tops",
+					"navigationItem": [
+						{
+							"id": "aumtanks",
+							"displayName": "Tanks",
+							"unifiedId": "men-tanks",
+							"description": "From rock-steady runs to intense training sessions, these technical men's tanks are good-to-go.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_tops_tanks",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenGeneral"
+							]
+						},
+						{
+							"id": "aumsstops",
+							"displayName": "Short sleeves",
+							"unifiedId": "men-ss-tops",
+							"description": "These technical, versatile short-sleeve tops are ready for (sweaty) action. Enough said.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_tops_shortsleeves",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenGeneral"
+							]
+						},
+						{
+							"id": "aumlstops",
+							"displayName": "Long sleeves",
+							"unifiedId": "men-ls-tops",
+							"description": "To make a long story short, technical features and innovative fabrics make these long-sleeve shirts go-to gear.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_tops_longsleeves",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenGeneral"
+							]
+						},
+						{
+							"id": "aumjacketsandhoodies",
+							"displayName": "Jackets + Hoodies",
+							"unifiedId": "men-jackets",
+							"description": "Get out there in street, studio and running jackets that offer light coverage or serious element protection.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_tops_jackets",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenGeneral"
+							]
+						},
+						{
+							"id": "malltops",
+							"displayName": "View All",
+							"unifiedId": "men-maintops",
+							"description": "Our innovative tops wick away sweat from stretch to finish.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_best_selling_tops",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenGeneral"
+							]
+						}
+					]
+				},
+				{
+					"id": "aumbottoms",
+					"displayName": "Bottoms",
+					"unifiedId": "aumbottoms",
+					"subTitle": "men's bottoms",
+					"displayInList": true,
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_bottoms",
+					"navigationItem": [
+						{
+							"id": "aumshorts",
+							"displayName": "Shorts",
+							"unifiedId": "men-shorts",
+							"description": "Life’s too short for bad shorts—that’s why we packed ours with technical innovation.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_bottoms_shorts",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"byFitMenShorts",
+								"bySizeMenGeneral",
+								"bySizeMenBottoms"
+							]
+						},
+						{
+							"id": "aumpants",
+							"displayName": "Pants + Tights",
+							"unifiedId": "men-pants",
+							"description": "Our men's pants are designed for everything from training and running to yoga and cycling. Trust us, you’ll want to live in them.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_bottoms_pants",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenGeneral",
+								"bySizeMenBottoms"
+							]
+						},
+						{
+							"id": "mallbottoms",
+							"displayName": "View All",
+							"unifiedId": "men-bottom",
+							"description": "Stay warm in our technical running and training tights.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_best_selling_bottoms",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenGeneral",
+								"bySizeMenBottoms"
+							]
+						}
+					]
+				},
+				{
+					"id": "aumaccessories",
+					"displayName": "Accessories",
+					"unifiedId": "aumaccessories",
+					"subTitle": "men's accessories",
+					"displayInList": true,
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_accessories",
+					"navigationItem": [
+						{
+							"id": "aumbags",
+							"displayName": "Bags",
+							"unifiedId": "men-bags",
+							"description": "Say goodbye to gym bags with versatile storage and carry solutions for all your go-to gear.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_accessories_bags",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenAccessories"
+							]
+						},
+						{
+							"id": "aumhats",
+							"displayName": "Hats",
+							"unifiedId": "aus-men-hats",
+							"description": "Whether you need a running hat for race day, or something to keep your head in the game—we've got you covered.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_accessories_hats",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenAccessories"
+							]
+						},
+						{
+							"id": "aummats",
+							"displayName": "Mats + Props",
+							"unifiedId": "men-yoga-mats-and-towels",
+							"description": "We get by with a little help from our friends—our yoga mats, blocks and straps are great practice buddies.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_accessories_mats",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenAccessories"
+							]
+						},
+						{
+							"id": "aumsocksandunderwear",
+							"displayName": "Socks + Underwear",
+							"unifiedId": "men-socks",
+							"description": "Men's studio and running socks for all-day comfort and performance. You're welcome.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_accessories_socks",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenAccessories"
+							]
+						},
+						{
+							"id": "cat3560015",
+							"displayName": "Water bottles",
+							"unifiedId": "aus-men-water-bottles",
+							"description": "Running, stretching, or squatting—you already know hydration is important. Bottoms up.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_accessories_bottles",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenAccessories"
+							]
+						},
+						{
+							"id": "mallaccessories",
+							"displayName": "View All",
+							"unifiedId": "m-accessories",
+							"description": "Grab ‘n go accessories for yoga, run, and training.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_best_selling_accessories",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"byActivityMen",
+								"bySizeMenAccessories"
+							]
+						}
+					]
+				},
+				{
+					"id": "aumactivity",
+					"displayName": "Activity",
+					"unifiedId": "aumactivity",
+					"subTitle": "activities",
+					"displayInList": true,
+					"backgroundPortraitImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_activity",
+					"navigationItem": [
+						{
+							"id": "au-m-run",
+							"displayName": "Run",
+							"unifiedId": "au-m-run",
+							"description": "Designed to go the distance, our men's running gear is sweat-ready and packed with innovative technical features.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_activity_run",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"bySizeMenGeneral",
+								"bySizeMenBottoms",
+								"bySizeMenAccessories"
+							]
+						},
+						{
+							"id": "au-m-tofrom",
+							"displayName": "To + From",
+							"unifiedId": "au-m-tofrom",
+							"description": "We get it, you’re going places. Gear up in to and from pieces that are tailored for mobility.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_activity_tofrom",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"bySizeMenGeneral",
+								"bySizeMenBottoms",
+								"bySizeMenAccessories"
+							]
+						},
+						{
+							"id": "au-m-training",
+							"displayName": "Training",
+							"unifiedId": "au-m-training",
+							"description": "Our men's training gear is designed with technical fabrics to handle some serious sweat during your workout.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_activity_training",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"bySizeMenGeneral",
+								"bySizeMenBottoms",
+								"bySizeMenAccessories"
+							]
+						},
+						{
+							"id": "au-m-yoga",
+							"displayName": "Yoga",
+							"unifiedId": "au-m-yoga",
+							"description": "Technical men's yoga gear designed to handle all the sweat, an intense stretch, and a whole lot of Savasana.",
+							"thumbnailImageUrl": "http://images.lululemon.com/is/image/lululemon/m_cat_activity_yoga",
+							"iconUrl": null,
+							"productsExpected": true,
+							"filterIds": [
+								"bySizeMenGeneral",
+								"bySizeMenBottoms",
+								"bySizeMenAccessories"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": null,
+			"displayName": "gift cards",
+			"unifiedId": "gift-card-menu-category",
+			"subTitle": "gift cards",
+			"navigationItem": [
+				{
+					"id": "au_prod20263",
+					"displayName": "giftcard",
+					"unifiedId": "giftcard-60004",
+					"subTitle": null,
+					"navigationItem": null
+				},
+				{
+					"id": null,
+					"displayName": "check gift card balance",
+					"unifiedId": "gift-card-balance",
+					"subTitle": null,
+					"navigationItem": null
+				}
+			]
+		},
+		{
+			"displayName": "Help"
+		}
+	]
+}

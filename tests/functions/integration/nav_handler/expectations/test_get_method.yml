@@ -1,3 +1,0 @@
-body: '{"hello": "world"}'
-headers: {Access-Control-Allow-Origin: '*'}
-statusCode: 200
